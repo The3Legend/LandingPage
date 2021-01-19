@@ -1,0 +1,15 @@
+.dinamic_block {
+  transform: translate(0px, 50%);
+  opacity: 0;
+  transition: all, 0.7s ease 0s;
+
+}
+._active {
+  transform: translate(0px, 0px);
+  opacity: 1;
+}
+
+
+.borderColor {
+  border: 1px solid red;
+}
